@@ -1,0 +1,496 @@
+{
+    "planets": [
+      {
+        "id": 1,
+        "officialName": "Mercury",
+        "aka": ["Hermes", "Swift Planet"],
+        "distance": "57.9 million km from Sun",
+        "description": "The smallest planet in our solar system and closest to the Sun. Mercury has extreme temperature variations and no atmosphere."
+      },
+      {
+        "id": 2,
+        "officialName": "Venus",
+        "aka": ["Morning Star", "Evening Star", "Earth's Twin"],
+        "distance": "108.2 million km from Sun",
+        "description": "The hottest planet in our solar system with a thick, toxic atmosphere. Often called Earth's twin due to similar size."
+      },
+      {
+        "id": 3,
+        "officialName": "Earth",
+        "aka": ["Terra", "Blue Planet", "Gaia"],
+        "distance": "149.6 million km from Sun",
+        "description": "The only known planet to harbor life. Earth has liquid water, a protective atmosphere, and a magnetic field."
+      },
+      {
+        "id": 4,
+        "officialName": "Mars",
+        "aka": ["Red Planet", "Ares"],
+        "distance": "227.9 million km from Sun",
+        "description": "Known for its reddish appearance due to iron oxide. Mars has the largest volcano and canyon in the solar system."
+      },
+      {
+        "id": 5,
+        "officialName": "Jupiter",
+        "aka": ["Gas Giant", "King of Planets"],
+        "distance": "778.5 million km from Sun",
+        "description": "The largest planet in our solar system. Jupiter has a Great Red Spot storm and over 80 moons."
+      },
+      {
+        "id": 6,
+        "officialName": "Saturn",
+        "aka": ["Ringed Planet", "Kronos"],
+        "distance": "1.43 billion km from Sun",
+        "description": "Famous for its prominent ring system. Saturn is less dense than water and has 146 known moons."
+      },
+      {
+        "id": 7,
+        "officialName": "Uranus",
+        "aka": ["Ice Giant", "Tilted Planet"],
+        "distance": "2.87 billion km from Sun",
+        "description": "An ice giant that rotates on its side. Uranus has a faint ring system and 27 known moons."
+      },
+      {
+        "id": 8,
+        "officialName": "Neptune",
+        "aka": ["Windy Planet", "Poseidon"],
+        "distance": "4.5 billion km from Sun",
+        "description": "The windiest planet with speeds up to 2,100 km/h. Neptune has 16 known moons including Triton."
+      },
+      {
+        "id": 9,
+        "officialName": "Proxima Centauri b",
+        "aka": ["Proxima b", "Alpha Centauri Cb"],
+        "distance": "4.24 light-years from Earth",
+        "description": "The closest known exoplanet to Earth, located in the habitable zone of Proxima Centauri."
+      },
+      {
+        "id": 10,
+        "officialName": "Kepler-452b",
+        "aka": ["Earth's Cousin", "Super-Earth"],
+        "distance": "1,400 light-years from Earth",
+        "description": "Often called Earth's cousin, this planet orbits in the habitable zone of a Sun-like star."
+      },
+      {
+        "id": 11,
+        "officialName": "TRAPPIST-1e",
+        "aka": ["TRAPPIST-1 e"],
+        "distance": "40 light-years from Earth",
+        "description": "One of seven Earth-sized planets in the TRAPPIST-1 system, potentially habitable."
+      },
+      {
+        "id": 12,
+        "officialName": "HD 209458 b",
+        "aka": ["Osiris", "Bellerophon"],
+        "distance": "159 light-years from Earth",
+        "description": "The first exoplanet discovered transiting its star, a hot Jupiter with an evaporating atmosphere."
+      },
+      {
+        "id": 13,
+        "officialName": "Gliese 581g",
+        "aka": ["Zarmina's World"],
+        "distance": "20 light-years from Earth",
+        "description": "A potentially habitable super-Earth in the Gliese 581 system."
+      },
+      {
+        "id": 14,
+        "officialName": "Kepler-186f",
+        "aka": ["Earth's Twin"],
+        "distance": "500 light-years from Earth",
+        "description": "The first Earth-size planet discovered in the habitable zone of another star."
+      },
+      {
+        "id": 15,
+        "officialName": "55 Cancri e",
+        "aka": ["Diamond Planet", "Janssen"],
+        "distance": "40 light-years from Earth",
+        "description": "A super-Earth possibly made of diamond, with surface temperatures over 2,000°C."
+      },
+      {
+        "id": 16,
+        "officialName": "Kepler-22b",
+        "aka": ["Kepler-22b"],
+        "distance": "600 light-years from Earth",
+        "description": "The first planet found in the habitable zone of a Sun-like star by the Kepler mission."
+      },
+      {
+        "id": 17,
+        "officialName": "Gliese 667Cc",
+        "aka": ["GJ 667Cc"],
+        "distance": "23.6 light-years from Earth",
+        "description": "A super-Earth in the habitable zone of a red dwarf star in a triple star system."
+      },
+      {
+        "id": 18,
+        "officialName": "Kepler-438b",
+        "aka": ["Kepler-438b"],
+        "distance": "470 light-years from Earth",
+        "description": "One of the most Earth-like planets discovered, with 70% chance of being rocky."
+      },
+      {
+        "id": 19,
+        "officialName": "Wolf 1061c",
+        "aka": ["Wolf 1061c"],
+        "distance": "13.8 light-years from Earth",
+        "description": "A potentially habitable super-Earth orbiting within the habitable zone."
+      },
+      {
+        "id": 20,
+        "officialName": "K2-18b",
+        "aka": ["K2-18b"],
+        "distance": "124 light-years from Earth",
+        "description": "A sub-Neptune with water vapor detected in its atmosphere, potentially habitable."
+      },
+      {
+        "id": 21,
+        "officialName": "TOI-715 b",
+        "aka": ["TOI-715b"],
+        "distance": "137 light-years from Earth",
+        "description": "A super-Earth in the habitable zone, one of the closest potentially habitable worlds."
+      },
+      {
+        "id": 22,
+        "officialName": "LHS 1140 b",
+        "aka": ["LHS 1140b"],
+        "distance": "40 light-years from Earth",
+        "description": "A rocky super-Earth that may retain its atmosphere, making it potentially habitable."
+      },
+      {
+        "id": 23,
+        "officialName": "Kepler-442b",
+        "aka": ["Kepler-442b"],
+        "distance": "1,200 light-years from Earth",
+        "description": "A super-Earth with high potential for habitability, receiving similar energy as Earth."
+      },
+      {
+        "id": 24,
+        "officialName": "Kepler-1649c",
+        "aka": ["Kepler-1649c"],
+        "distance": "300 light-years from Earth",
+        "description": "An Earth-size planet in the habitable zone, very similar to Earth in size and temperature."
+      },
+      {
+        "id": 25,
+        "officialName": "Ross 128 b",
+        "aka": ["Ross 128b"],
+        "distance": "11 light-years from Earth",
+        "description": "A temperate Earth-sized planet orbiting a quiet red dwarf star."
+      },
+      {
+        "id": 26,
+        "officialName": "Tau Ceti e",
+        "aka": ["Tau Ceti e"],
+        "distance": "11.9 light-years from Earth",
+        "description": "A super-Earth in the habitable zone of the nearby Sun-like star Tau Ceti."
+      },
+      {
+        "id": 27,
+        "officialName": "Kepler-452b",
+        "aka": ["Earth 2.0"],
+        "distance": "1,400 light-years from Earth",
+        "description": "The most Earth-like planet found, orbiting a Sun-like star in the habitable zone."
+      },
+      {
+        "id": 28,
+        "officialName": "WASP-121b",
+        "aka": ["WASP-121b"],
+        "distance": "850 light-years from Earth",
+        "description": "A hot Jupiter with water vapor in its atmosphere and extreme temperatures."
+      },
+      {
+        "id": 29,
+        "officialName": "HAT-P-7b",
+        "aka": ["Kepler-2b"],
+        "distance": "1,040 light-years from Earth",
+        "description": "A hot Jupiter with clouds made of corundum, the mineral that forms rubies and sapphires."
+      },
+      {
+        "id": 30,
+        "officialName": "Kepler-16b",
+        "aka": ["Tatooine"],
+        "distance": "200 light-years from Earth",
+        "description": "The first confirmed circumbinary planet, orbiting two stars like Tatooine in Star Wars."
+      },
+      {
+        "id": 31,
+        "officialName": "TrES-2b",
+        "aka": ["Dark Planet"],
+        "distance": "750 light-years from Earth",
+        "description": "The darkest known planet, reflecting less than 1% of light that hits it."
+      },
+      {
+        "id": 32,
+        "officialName": "WASP-12b",
+        "aka": ["WASP-12b"],
+        "distance": "870 light-years from Earth",
+        "description": "A hot Jupiter being consumed by its host star, with a comet-like tail."
+      },
+      {
+        "id": 33,
+        "officialName": "Kepler-10b",
+        "aka": ["Kepler-10b"],
+        "distance": "560 light-years from Earth",
+        "description": "The first rocky planet discovered by Kepler, a lava world close to its star."
+      },
+      {
+        "id": 34,
+        "officialName": "CoRoT-7b",
+        "aka": ["CoRoT-7b"],
+        "distance": "489 light-years from Earth",
+        "description": "One of the first super-Earths discovered, likely covered in lava."
+      },
+      {
+        "id": 35,
+        "officialName": "Gliese 436b",
+        "aka": ["GJ 436b"],
+        "distance": "33 light-years from Earth",
+        "description": "A Neptune-sized planet with a comet-like tail of hydrogen escaping its atmosphere."
+      },
+      {
+        "id": 36,
+        "officialName": "WASP-17b",
+        "aka": ["WASP-17b"],
+        "distance": "1,000 light-years from Earth",
+        "description": "One of the largest known planets, with extremely low density and retrograde orbit."
+      },
+      {
+        "id": 37,
+        "officialName": "HD 189733b",
+        "aka": ["Blue Planet"],
+        "distance": "63 light-years from Earth",
+        "description": "A deep blue hot Jupiter with glass rain and winds of 7,000 km/h."
+      },
+      {
+        "id": 38,
+        "officialName": "Kepler-78b",
+        "aka": ["Kepler-78b"],
+        "distance": "400 light-years from Earth",
+        "description": "An Earth-sized planet so close to its star that its surface is molten rock."
+      },
+      {
+        "id": 39,
+        "officialName": "WASP-96b",
+        "aka": ["WASP-96b"],
+        "distance": "1,150 light-years from Earth",
+        "description": "A hot Jupiter with clear skies and water vapor detected by James Webb Space Telescope."
+      },
+      {
+        "id": 40,
+        "officialName": "TOI-849b",
+        "aka": ["Naked Core"],
+        "distance": "730 light-years from Earth",
+        "description": "Possibly the exposed core of a gas giant that lost its atmosphere."
+      },
+      {
+        "id": 41,
+        "officialName": "KELT-9b",
+        "aka": ["KELT-9b"],
+        "distance": "670 light-years from Earth",
+        "description": "The hottest known planet, hotter than most stars, with temperatures over 4,000°C."
+      },
+      {
+        "id": 42,
+        "officialName": "PSR B1257+12 A",
+        "aka": ["Draugr"],
+        "distance": "2,300 light-years from Earth",
+        "description": "One of the first exoplanets discovered, orbiting a pulsar in a deadly radiation environment."
+      },
+      {
+        "id": 43,
+        "officialName": "Kepler-37b",
+        "aka": ["Kepler-37b"],
+        "distance": "215 light-years from Earth",
+        "description": "The smallest known exoplanet, smaller than Mercury, likely airless and rocky."
+      },
+      {
+        "id": 44,
+        "officialName": "WASP-189b",
+        "aka": ["WASP-189b"],
+        "distance": "322 light-years from Earth",
+        "description": "An ultra-hot Jupiter with extreme temperatures and possible titanium oxide in its atmosphere."
+      },
+      {
+        "id": 45,
+        "officialName": "L 98-59b",
+        "aka": ["L 98-59b"],
+        "distance": "35 light-years from Earth",
+        "description": "A rocky planet about 80% the size of Earth in a nearby multi-planet system."
+      },
+      {
+        "id": 46,
+        "officialName": "TOI-178b",
+        "aka": ["TOI-178b"],
+        "distance": "200 light-years from Earth",
+        "description": "Part of a unique system where planets are in orbital resonance, like a cosmic symphony."
+      },
+      {
+        "id": 47,
+        "officialName": "WASP-76b",
+        "aka": ["Iron Rain Planet"],
+        "distance": "640 light-years from Earth",
+        "description": "A hot Jupiter where it literally rains molten iron due to extreme temperatures."
+      },
+      {
+        "id": 48,
+        "officialName": "K2-141b",
+        "aka": ["Lava Planet"],
+        "distance": "202 light-years from Earth",
+        "description": "A rocky planet with a magma ocean and rock vapor atmosphere on its day side."
+      },
+      {
+        "id": 49,
+        "officialName": "WASP-103b",
+        "aka": ["Rugby Ball Planet"],
+        "distance": "1,225 light-years from Earth",
+        "description": "A hot Jupiter stretched into an oval shape by its star's extreme gravitational forces."
+      },
+      {
+        "id": 50,
+        "officialName": "GJ 367b",
+        "aka": ["Iron Planet"],
+        "distance": "31 light-years from Earth",
+        "description": "A dense, iron-rich planet that completes an orbit around its star in just 7.7 hours."
+      }
+    ],
+    "starSystems": [
+      {
+        "id": 1,
+        "officialName": "Solar System",
+        "aka": ["Sol System", "Our Solar System"],
+        "distance": "0 light-years (home)",
+        "description": "Our home star system containing the Sun and eight planets, along with numerous moons, asteroids, and comets."
+      },
+      {
+        "id": 2,
+        "officialName": "Alpha Centauri",
+        "aka": ["Rigil Kent", "Toliman"],
+        "distance": "4.37 light-years from Earth",
+        "description": "The closest star system to Earth, consisting of three stars: Alpha Centauri A, B, and Proxima Centauri."
+      },
+      {
+        "id": 3,
+        "officialName": "Sirius",
+        "aka": ["Dog Star", "Alpha Canis Majoris"],
+        "distance": "8.6 light-years from Earth",
+        "description": "The brightest star in Earth's night sky, actually a binary star system with Sirius A and B."
+      },
+      {
+        "id": 4,
+        "officialName": "Vega",
+        "aka": ["Alpha Lyrae", "Northern Pole Star"],
+        "distance": "25 light-years from Earth",
+        "description": "One of the most luminous stars near Earth and the northern pole star around 12,000 BCE."
+      },
+      {
+        "id": 5,
+        "officialName": "Arcturus",
+        "aka": ["Alpha Boötis", "Bear Guard"],
+        "distance": "37 light-years from Earth",
+        "description": "The brightest star in the northern celestial hemisphere and fourth-brightest in Earth's night sky."
+      },
+      {
+        "id": 6,
+        "officialName": "Capella",
+        "aka": ["Alpha Aurigae", "Goat Star"],
+        "distance": "43 light-years from Earth",
+        "description": "Actually a complex multiple star system of four stars in two binary pairs."
+      },
+      {
+        "id": 7,
+        "officialName": "Rigel",
+        "aka": ["Beta Orionis", "Left Foot of Orion"],
+        "distance": "860 light-years from Earth",
+        "description": "A blue supergiant star and one of the most luminous stars known in the Milky Way."
+      },
+      {
+        "id": 8,
+        "officialName": "Procyon",
+        "aka": ["Alpha Canis Minoris", "Little Dog Star"],
+        "distance": "11.5 light-years from Earth",
+        "description": "The eighth-brightest star in Earth's night sky, part of a binary star system."
+      },
+      {
+        "id": 9,
+        "officialName": "Betelgeuse",
+        "aka": ["Alpha Orionis", "Shoulder of Orion"],
+        "distance": "700 light-years from Earth",
+        "description": "A red supergiant star that may explode as a supernova in the next 100,000 years."
+      },
+      {
+        "id": 10,
+        "officialName": "Altair",
+        "aka": ["Alpha Aquilae", "Flying Eagle"],
+        "distance": "17 light-years from Earth",
+        "description": "One of the vertices of the Summer Triangle asterism, rotating very rapidly."
+      },
+      {
+        "id": 11,
+        "officialName": "TRAPPIST-1",
+        "aka": ["2MASS J23062928-0502285"],
+        "distance": "40 light-years from Earth",
+        "description": "An ultra-cool dwarf star with seven Earth-sized planets, three potentially habitable."
+      },
+      {
+        "id": 12,
+        "officialName": "Kepler-452",
+        "aka": ["KOI-7016"],
+        "distance": "1,400 light-years from Earth",
+        "description": "A Sun-like star hosting Kepler-452b, often called Earth's cousin."
+      },
+      {
+        "id": 13,
+        "officialName": "Gliese 581",
+        "aka": ["Wolf 562", "BD-07 4003"],
+        "distance": "20 light-years from Earth",
+        "description": "A red dwarf star with multiple planets, including potentially habitable worlds."
+      },
+      {
+        "id": 14,
+        "officialName": "55 Cancri",
+        "aka": ["Rho1 Cancri", "Copernicus"],
+        "distance": "40 light-years from Earth",
+        "description": "A binary star system with five known planets, including the diamond planet 55 Cancri e."
+      },
+      {
+        "id": 15,
+        "officialName": "HD 209458",
+        "aka": ["Osiris System"],
+        "distance": "159 light-years from Earth",
+        "description": "The first star known to have a transiting exoplanet, revolutionizing exoplanet detection."
+      },
+      {
+        "id": 16,
+        "officialName": "Wolf 359",
+        "aka": ["CN Leonis"],
+        "distance": "7.9 light-years from Earth",
+        "description": "One of the nearest stars to Earth, a red dwarf with frequent stellar flares."
+      },
+      {
+        "id": 17,
+        "officialName": "Barnard's Star",
+        "aka": ["BD+04 3561a"],
+        "distance": "6 light-years from Earth",
+        "description": "The nearest single star to Earth and the star with the highest proper motion."
+      },
+      {
+        "id": 18,
+        "officialName": "Tau Ceti",
+        "aka": ["HD 10700"],
+        "distance": "11.9 light-years from Earth",
+        "description": "A Sun-like star with multiple planets, including potentially habitable super-Earths."
+      },
+      {
+        "id": 19,
+        "officialName": "Epsilon Eridani",
+        "aka": ["HD 22049", "Ran"],
+        "distance": "10.5 light-years from Earth",
+        "description": "A young Sun-like star with a confirmed planet and debris disk."
+      },
+      {
+        "id": 20,
+        "officialName": "Ross 128",
+        "aka": ["Proxima Virginis"],
+        "distance": "11 light-years from Earth",
+        "description": "A quiet red dwarf star hosting the temperate planet Ross 128 b."
+      }
+    ]
+  }

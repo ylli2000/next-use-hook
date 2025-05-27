@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Server-Side use() Hook Demonstration
 
-## Getting Started
+![Screenshot](screenshot.png)
 
-First, run the development server:
+## 🛠️ Installation & Setup
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### 📦 Prerequisites
+- **Node.js** - v18 or higher
+- **pnpm** - is recommended
+- **Next.js 15** - canary version (15.0.0-canary.10) to enable dynamicIO
+- **React 19** - With the new `use()` hook
+- **TypeScript** - For type safety
+- **Tailwind CSS** - For styling
+- **JSON Server** - Mock API for demonstration
+
+### 🏗️ Installation Steps
+
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd next-use-hook
+   ```
+
+2. **Install dependencies**
+   ```bash
+   pnpm install
+   # or
+   npm install
+   ```
+
+3. **Start the mock API server**
+   ```bash
+   pnpm run mock-api
+   # or
+   npm run mock-api
+   ```
+   This will start the JSON server on `http://localhost:3001`
+
+   Now, open another console and start the development server.
+
+4. **Start the development server**
+   ```bash
+   pnpm dev
+   # or
+   npm run dev
+   ```
+   Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## 🎯 What This Demo Demonstrates
+
+This demo showcases how the `use()` hook works on the server side with Next.js App Router. Pay attention to the **DevTools Network tab** - you'll notice there are no API calls after the initial page render.
+
+When you click a button, the data is fetched and the page is rendered entirely on the server side. You'll see a **2-second artificial delay** before the whole page is ready, simulating real-world data fetching.
+
+### 🔑 Key Point
+
+The `use()` hook does **NOT block** the initial page rendering. While data is being prepared on the server, the loading state is presented immediately, providing a smooth user experience.
+
+This demonstrates React's concurrent features working seamlessly with Next.js server components, allowing for progressive enhancement and better perceived performance.
+
+## 📁 Project Structure
+
+```
+├── app/                    # Next.js App Router pages
+├── components/            # Reusable React components
+├── mock-data/            # JSON server data
+├── types/                # TypeScript type definitions
+└── util/                 # Utility functions
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎮 How to Test
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Open the application in your browser
+2. Open DevTools and go to the Network tab
+3. Click on either "🪐 Planets" or "✨ Star Systems" button
+4. Observe:
+   - No client-side API calls in the Network tab
+   - Loading state appears immediately
+   - Page renders after 2-second delay (server-side)
+   - Smooth user experience despite the delay
