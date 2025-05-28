@@ -6,10 +6,8 @@ type Props = {
 
 export default function ListItem({ item }: Props) {
     return (
-        <div className="group relative bg-white dark:bg-gray-800 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border border-gray-200 dark:border-gray-700 hover:border-blue-300 dark:hover:border-blue-600 overflow-hidden">
-            {/* Gradient overlay on hover */}
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-            
+        <div className="group relative bg-white dark:bg-gray-800 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border border-gray-200 dark:border-gray-700 overflow-hidden">
+
             <div className="relative p-6">
                 {/* Header with title and distance badge */}
                 <div className="flex items-start justify-between mb-4">
