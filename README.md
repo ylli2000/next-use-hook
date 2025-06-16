@@ -60,13 +60,13 @@ This demonstrates React's concurrent features working seamlessly with Next.js se
 
 ---
 
-## 🔄 React 18+ use() vs Next 15 Server Actions
+## 🔄 React 18+ use() RSC vs Next 15 Server Actions
 
-A version switcher button is available at the top right of the app to toggle between the two approaches:
+A version switcher button is available at the top of the app to toggle between the two approaches:
 
 | Version | Route | Description |
 |---------|-------|-------------|
-| **React 18+ use()** | `/` | Uses the new React 18+ `use()` hook for server components and data fetching. Demonstrates RSC and concurrent features. |
+| **React 18+ use() RSC** | `/` | Uses the new React 18+ `use()` hook for server components and data fetching. Demonstrates RSC and concurrent features. |
 | **Next 15 Server Actions** | `/next` | Uses Next.js 15's Server Actions and conventions for data fetching and navigation. |
 
 - The UI and data are similar, but the underlying data fetching and rendering approach is different.
