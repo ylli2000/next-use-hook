@@ -4,12 +4,14 @@ type Props = {
   size?: 'sm' | 'md' | 'lg';
   variant?: 'default' | 'minimal';
   className?: string;
+  url?: string;
 }
 
 export default function BackButton({ 
   size = 'md',
   variant = 'default',
-  className = ''
+  className = '',
+  url = '/'
 }: Props) {
   const sizeClasses = {
     sm: 'px-3 py-2 text-sm',
@@ -51,7 +53,7 @@ export default function BackButton({
 
   return (
     <Link
-      href="/"
+      href={url}
       className={`${baseClasses} ${variantClasses} ${className}`}
     >
       <BackIcon />

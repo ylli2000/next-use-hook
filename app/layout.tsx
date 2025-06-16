@@ -1,3 +1,4 @@
+import VersionSwitcher from "@/components/VersionSwitcher";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -28,6 +29,9 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="max-w-[1600px] mt-16 mx-auto p-4">
+          <div className="flex justify-center mb-8">
+            <VersionSwitcher />
+          </div>
           {children}
         </div>
       </body>

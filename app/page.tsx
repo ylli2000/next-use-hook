@@ -6,15 +6,15 @@ export default function Home() {
     <>
       <div className="text-center">
         <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
-          Astronomical Objects
+          Astronomical Objects (REACT18+ USE() RSC VERSION)
         </h2>
         <p className="mt-8 text-gray-600 dark:text-gray-400">
           Explore the wonders of space and distant worlds
         </p>
       </div>
       <div className="flex justify-center gap-16 mt-16">
-        <AstronomicalCard variant="planets" />
-        <AstronomicalCard variant="star-systems" />
+        <AstronomicalCard variant="planets" href = '/planets' />
+        <AstronomicalCard variant="star-systems" href = '/star-systems' />
       </div>
       
       {/* Description Box */}

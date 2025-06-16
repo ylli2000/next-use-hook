@@ -58,6 +58,22 @@ The `use()` hook does **NOT block** the initial page rendering. While data is be
 
 This demonstrates React's concurrent features working seamlessly with Next.js server components, allowing for progressive enhancement and better perceived performance.
 
+---
+
+## 🔄 React 18+ use() vs Next 15 Server Actions
+
+A version switcher button is available at the top right of the app to toggle between the two approaches:
+
+| Version | Route | Description |
+|---------|-------|-------------|
+| **React 18+ use()** | `/` | Uses the new React 18+ `use()` hook for server components and data fetching. Demonstrates RSC and concurrent features. |
+| **Next 15 Server Actions** | `/next` | Uses Next.js 15's Server Actions and conventions for data fetching and navigation. |
+
+- The UI and data are similar, but the underlying data fetching and rendering approach is different.
+- Use the switcher to compare the developer and user experience between the two methods.
+
+---
+
 ## 📁 Project Structure
 
 ```
